@@ -1,0 +1,1 @@
+python -c "from markitdown import MarkItDown; m = MarkItDown(); r = m.convert('C:\\projects\\convertir\\input.pdf'); open('C:\\projects\\convertir\\document.md', 'w', encoding='utf-8').write(r.markdown)"
